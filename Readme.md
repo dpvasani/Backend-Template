@@ -82,17 +82,9 @@ CLOUDINARY_API_SECRET=
 4. Start the server:
 
    ```bash
-   npm run start
+   npm run dev
    ```
 
-### Running in Production
-
-To run in production, make sure your environment is correctly configured, and use a process manager like **PM2** for managing the application in production environments:
-
-```bash
-npm install -g pm2
-pm2 start src/app.js --name backend-template
-```
 
 ## Contributing
 
