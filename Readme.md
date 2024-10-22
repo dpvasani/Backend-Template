@@ -50,9 +50,16 @@ Create a `.env` file in the root directory and add the following:
 ```bash
 # Example .env file
 
-DB_CONNECTION_STRING=mongodb://localhost:27017/your-db-name
-PORT=3000
-JWT_SECRET=your-secret-key
+PORT=Your Port
+MONGODB_URL=MongoDB URL
+CORS_ORIGIN=*
+ACCESS_TOKEN_SECRET=Darshan Vasani
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_SECRET=Backend
+REFRESH_TOKEN_EXPIRY=10d
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 ```
 
 ### Installation
